@@ -44,19 +44,23 @@
 		   flymake-easy
 		   goto-chg
 		   popwin
+		   neotree
+		   command-log-mode
 		   ) "default pkg")
 
+;; check the package in briq-packages is installed, if have one more package is not install, return nil or t
 (defun briq-packages-installed-p()
   (loop for pkg in briq-packages
 	when (not (package-installed-p pkg)) do (return nil)
 	   finally (return t)))
 
+;; look up the not installed package, then install it
 (unless (briq-packages-installed-p)
     (message "%s" "Refreshing package database...")
     (package-refresh-contents)
     (dolist (pkg briq-packages)
       (when (not (package-installed-p pkg))
-	(package-install pkg))))
+		(package-install pkg))))
 
 (provide 'init-pkg)
 
