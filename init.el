@@ -38,4 +38,5 @@
 (require 'dired-mode-cfg)
 (require 'init-neotree)
 (require 'init-command-log)
+(require 'pdf-tool)
 

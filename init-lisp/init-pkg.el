@@ -46,6 +46,7 @@
 		   popwin
 		   neotree
 		   command-log-mode
+		   pdf-tools
 		   ) "default pkg")
 
 ;; check the package in briq-packages is installed, if have one more package is not install, return nil or t
