@@ -39,4 +39,5 @@
 (require 'init-neotree)
 (require 'init-command-log)
 (require 'pdf-tool)
+(require 'evil-leader-cfg)
 
