@@ -34,14 +34,12 @@
 ;; config tab width
 (setq-default tab-width 4)
 
+;; close electric indent mode
+(setq-default electric-indent-mode nil)
+
 ;; set default encoding
 (setq default-buffer-file-coding-system 'utf-8)
 (prefer-coding-system 'utf-8) 
-
-;; config quick index find function and variable
-(global-set-key (kbd "C-h C-f") 'find-function) 
-(global-set-key (kbd "C-h C-v") 'find-variable)
-(global-set-key (kbd "C-h C-k") 'find-function-on-key)
 
 ;; config this for forbid the slow move in chinese environment
 ;; ============================================================

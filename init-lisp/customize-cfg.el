@@ -10,6 +10,7 @@
  '(custom-safe-themes
    (quote
 	("bd7b7c5df1174796deefce5debc2d976b264585d51852c962362be83932873d9" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "c3d4af771cbe0501d5a865656802788a9a0ff9cf10a7df704ec8b8ef69017c68" default)))
+ '(evil-auto-indent nil)
  '(evil-leader/leader "SPC")
  '(helm-autoresize-max-height 30)
  '(helm-autoresize-mode t)
