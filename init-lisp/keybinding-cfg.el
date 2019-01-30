@@ -1,5 +1,13 @@
 ;; evil-leader key binding config
 (evil-leader/set-key
+  "hi" 'my-emacs-init-file 
+  "wh" 'windmove-left
+  "wl" 'windmove-right
+  "wk" 'windmove-up
+  "wj" 'windmove-down
+  "tL" 'imenu-list-smart-toggle
+  "tl" 'helm-semantic-or-imenu
+  "fz" 'fzf
   "ff" 'counsel-find-file
   "fF" 'find-file-in-project
   "fr" 'recentf-open-files
@@ -57,11 +65,6 @@
 
 ;; eshell config
 (global-set-key (kbd "<C-f5>") 'multi-term)
-
-
-;; neotree config
-(global-set-key (kbd "<f12>") 'neotree-toggle)
-(global-set-key (kbd "<f10>") 'neotree-dir)
 
 
 ;; recentf config

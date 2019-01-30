@@ -45,11 +45,16 @@
 		   flymake-easy
 		   goto-chg
 		   popwin
-		   neotree
 		   command-log-mode
 		   pdf-tools
 		   evil-leader
 		   evil-nerd-commenter
+		   imenu-list
+		   cedet
+		   powerline
+		   powerline-evil
+		   fzf
+		   airline-themes
 		   ) "default pkg")
 
 ;; check the package in briq-packages is installed, if have one more package is not install, return nil or t

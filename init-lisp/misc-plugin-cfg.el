@@ -93,11 +93,6 @@
   (setq term-buffer-maximum-size 0)))
 
 
-;; neotree config
-(require 'neotree)
-(remove-hook 'neotree-mode-hook 'evil-mode)
-
-
 ;; org-mode config
 (require 'org)
 
@@ -156,6 +151,31 @@
 ;; popwin config
 (require 'popwin)
 (popwin-mode 1)
+
+
+;; cedet config
+(require 'cedet)
+
+
+;; semantic config
+(require 'semantic)
+(global-semanticdb-minor-mode 1)
+(global-semantic-idle-scheduler-mode 1)
+(semantic-mode 1)
+
+
+;; powerline config
+(require 'powerline)
+(powerline-default-theme)
+
+
+;; powerlien-evil config
+(require 'powerline-evil)
+
+
+;; airline config
+(require 'airline-themes)
+(load-theme 'airline-dark)
 
 
 (provide 'misc-plugin-cfg)
