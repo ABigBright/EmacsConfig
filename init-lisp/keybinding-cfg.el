@@ -17,6 +17,7 @@
   "js" 'helm-gtags-find-symbol
   "jf" 'helm-gtags-find-files
   "ja" 'helm-gtags-dwim
+  "jw" 'ace-jump-word-mode
   "tg" 'helm-gtags-create-tags
   "cl" 'evilnc-comment-or-uncomment-lines
   "bk" 'kill-buffer)

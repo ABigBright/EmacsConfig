@@ -15,6 +15,7 @@
 
 
 ;; evil-leader config
+(setq evil-want-keybinding nil)
 (require 'evil-leader)
 (global-evil-leader-mode 1)
 
@@ -176,6 +177,14 @@
 ;; airline config
 (require 'airline-themes)
 (load-theme 'airline-dark)
+
+
+;; evil-collection config
+(evil-collection-init)
+
+
+;; git-gutter config
+(global-git-gutter-mode 1)
 
 
 (provide 'misc-plugin-cfg)

@@ -15,10 +15,10 @@
  '(helm-autoresize-max-height 30)
  '(helm-autoresize-mode t)
  '(helm-gtags-auto-update t)
- '(imenu-list-size 0.2)
+ '(imenu-list-size 0.3)
  '(package-selected-packages
    (quote
-	(airline-theme solarized-theme evil smartparens package+ multi-term monokai-theme js2-mode hungry-delete helm-gtags ggtags flymake-cppcheck find-file-in-project counsel company cl-lib-highlight ace-jump-mode)))
+	(direx-el emacs-git-gutter airline-theme solarized-theme evil smartparens package+ multi-term monokai-theme js2-mode hungry-delete helm-gtags ggtags flymake-cppcheck find-file-in-project counsel company cl-lib-highlight ace-jump-mode)))
  '(show-paren-mode t)
  '(standard-indent 5)
  '(tool-bar-mode nil))

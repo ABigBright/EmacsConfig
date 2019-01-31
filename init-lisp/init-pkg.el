@@ -55,6 +55,9 @@
 		   powerline-evil
 		   fzf
 		   airline-themes
+		   imenu-anywhere
+		   evil-collection
+		   git-gutter
 		   ) "default pkg")
 
 ;; check the package in briq-packages is installed, if have one more package is not install, return nil or t
