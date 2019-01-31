@@ -1,5 +1,8 @@
 ;; evil-leader key binding config
 (evil-leader/set-key
+  "sa" 'counsel-ag 
+  "sr" 'counsel-rg 
+  "sg" 'counsel-grep 
   "hi" 'my-emacs-init-file 
   "wh" 'windmove-left
   "wl" 'windmove-right
@@ -7,6 +10,7 @@
   "wj" 'windmove-down
   "tL" 'imenu-list-smart-toggle
   "tl" 'helm-semantic-or-imenu
+  "fh" 'helm-find-files
   "fz" 'fzf
   "ff" 'counsel-find-file
   "fF" 'find-file-in-project

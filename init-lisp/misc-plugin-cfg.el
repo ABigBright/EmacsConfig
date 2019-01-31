@@ -176,7 +176,7 @@
 
 ;; airline config
 (require 'airline-themes)
-(load-theme 'airline-dark)
+(load-theme 'airline-molokai)
 
 
 ;; evil-collection config
