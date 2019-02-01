@@ -8,6 +8,7 @@
   "wl" 'windmove-right
   "wk" 'windmove-up
   "wj" 'windmove-down
+  "wc" 'quit-window
   "tL" 'imenu-list-smart-toggle
   "tl" 'helm-semantic-or-imenu
   "fh" 'helm-find-files
