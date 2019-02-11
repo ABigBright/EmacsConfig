@@ -58,6 +58,7 @@
 		   imenu-anywhere
 		   evil-collection
 		   git-gutter
+		   which-key
 		   ) "default pkg")
 
 ;; check the package in briq-packages is installed, if have one more package is not install, return nil or t

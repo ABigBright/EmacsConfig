@@ -187,4 +187,8 @@
 (global-git-gutter-mode 1)
 
 
+;; which-key config
+(require 'which-key)
+(which-key-mode)
+
 (provide 'misc-plugin-cfg)
