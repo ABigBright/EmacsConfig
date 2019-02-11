@@ -24,6 +24,7 @@
   "ja" 'helm-gtags-dwim
   "jw" 'ace-jump-word-mode
   "tg" 'helm-gtags-create-tags
+  "tc" 'helm-gtags-parse-file
   "cl" 'evilnc-comment-or-uncomment-lines
   "bk" 'kill-buffer)
 
