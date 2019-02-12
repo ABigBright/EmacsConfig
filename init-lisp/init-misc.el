@@ -59,4 +59,9 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Source Code Pro" :foundry "ADBO" :slant normal :weight semibold :height 100 :width normal)))))
 
+
+;; expand tab to space 
+(setq-default indent-tabs-mode nil)
+
+
 (provide 'init-misc)
