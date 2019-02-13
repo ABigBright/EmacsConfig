@@ -101,4 +101,8 @@
 ;;(define-key minibuffer-local-map (kbd "C-r") 'counsel-minibuffer-history)
 
 
+;; cancel keybinding config
+(global-unset-key (kbd "C-SPC"))
+
+
 (provide 'keybinding-cfg)
