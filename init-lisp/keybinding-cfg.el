@@ -2,7 +2,8 @@
 (evil-leader/set-key
   "gs" 'magit-status 
   "gl" 'magit-log 
-  "gb" 'magit-log 
+  "gL" 'magit-log-all
+  "gb" 'magit-blame 
   "sa" 'counsel-ag 
   "sr" 'counsel-rg 
   "sg" 'counsel-grep 
