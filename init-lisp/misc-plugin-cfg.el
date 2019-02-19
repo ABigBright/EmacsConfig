@@ -191,4 +191,9 @@
 (require 'which-key)
 (which-key-mode)
 
+
+;; evil-magit config
+(require 'evil-magit)
+
+
 (provide 'misc-plugin-cfg)

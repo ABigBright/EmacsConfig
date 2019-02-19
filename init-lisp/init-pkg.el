@@ -59,6 +59,8 @@
 		   evil-collection
 		   git-gutter
 		   which-key
+           magit
+           evil-magit
 		   ) "default pkg")
 
 ;; check the package in briq-packages is installed, if have one more package is not install, return nil or t

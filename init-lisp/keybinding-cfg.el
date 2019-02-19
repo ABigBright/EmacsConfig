@@ -1,5 +1,8 @@
 ;; evil-leader key binding config
 (evil-leader/set-key
+  "gs" 'magit-status 
+  "gl" 'magit-log 
+  "gb" 'magit-log 
   "sa" 'counsel-ag 
   "sr" 'counsel-rg 
   "sg" 'counsel-grep 
