@@ -40,13 +40,11 @@
 		   undo-tree
 		   cl-lib-highlight
 		   flymake-cppcheck
-		   package+
 		   dash
 		   flymake-easy
 		   goto-chg
 		   popwin
 		   command-log-mode
-		   pdf-tools
 		   evil-leader
 		   evil-nerd-commenter
 		   imenu-list

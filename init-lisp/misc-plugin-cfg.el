@@ -142,11 +142,11 @@
 
 
 ;; pdf tool config
-(pdf-tools-install)
-(defun close-linum-mode()
-  (interactive)
-  (linum-mode -1))
-(add-hook 'pdf-view-mode-hook 'close-linum-mode)
+;; (pdf-tools-install)
+;; (defun close-linum-mode()
+;;   (interactive)
+;;   (linum-mode -1))
+;; (add-hook 'pdf-view-mode-hook 'close-linum-mode)
 
 
 ;; popwin config
@@ -159,10 +159,11 @@
 
 
 ;; semantic config
-(require 'semantic)
-(global-semanticdb-minor-mode 1)
-(global-semantic-idle-scheduler-mode 1)
-(semantic-mode 1)
+;; comment the semantic config to improve performance
+;; (require 'semantic)
+;; (global-semanticdb-minor-mode 1)
+;; (global-semantic-idle-scheduler-mode 1)
+;; (semantic-mode 1)
 
 
 ;; powerline config
